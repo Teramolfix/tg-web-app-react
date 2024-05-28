@@ -6,16 +6,16 @@ import { useTelegram } from './hooks/useTelegram';
 
 
 function App() {
-  // const {tg, onToggleButton} = useTelegram;
+  const {tg, onToggleButton} = useTelegram;
 
-  // useEffect( () => {
-  //   tg.ready();
-  // })
+  useEffect( () => {
+    tg.ready();
+  })
 
   return (
     <div className="App">
-      {/* <Header /> */}
-      {/* <button onClick={onToggleButton}>toggle</button> */}
+      <Header />
+      <button onClick={onToggleButton}>toggle</button>
       <h1>Hello World!</h1>
     </div>
   );
