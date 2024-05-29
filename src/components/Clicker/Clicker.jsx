@@ -6,7 +6,7 @@ const Clicker = () => {
 	return (
 		<div className='flex flex-col justify-center items-center'>
 			<div className='w-[200px] h-[200px] bg-gradient-to-b from-[#585ffa] via-[#262e4b] to-[#1c2025] my-[5vh] mx-auto p-[10px] rounded-full'>
-				<button onClick={() => setCount(count + 1)} className={'w-full h-full rounded-full bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-purple-600 via-pink-600 to-blue-600 hover:bg-indigo-700 text-sm text-slate-100 clicker-btn transition duration-300 ease-in-out'}>
+				<button onClick={() => setCount(count + 1)} className={'w-full h-full rounded-full bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-[#4671b1] via-[70%] via-[#282e3e] to-[#282e3e] hover:bg-indigo-700 text-sm text-slate-100 clicker-btn transition duration-300 ease-in-out'}>
 					Tap
 				</button>
 			</div>
