@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import './App.css';
 import Header from './components/Header/Header';
 import { useTelegram } from './hooks/useTelegram';
+import Clicker from './components/Clicker/Clicker';
 
 
 
@@ -15,6 +16,7 @@ function App() {
   return (
     <div className="App">
       <Header />
+      <Clicker />
       <button onClick={onToggleButton}>toggle</button>
     </div>
   );
