@@ -1,11 +1,13 @@
 import React from 'react';
+import './Clicker.css';
 
-const Clicker = (props) => {
-	console.log(props);
+const Clicker = () => {
 	return (
-		<button {...props} className={'clicker-btn ' + props.className}>
-			Click on me!
-		</button>
+		<div className='clicker-div'>
+			<button className={'clicker-btn '}>
+				Click on me!
+			</button>
+		</div>
 	);
 };
 
