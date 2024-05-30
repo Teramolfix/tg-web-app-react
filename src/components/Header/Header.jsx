@@ -1,12 +1,12 @@
 import React from 'react';
 import { useTelegram } from '../../hooks/useTelegram';
-import Button from '../Button/Button';
+// import Button from '../Button/Button';
 
 const Header = () => {
 	const {user, onClose} = useTelegram;
 	return (
 		<div className={'header'}>
-			<Button onClick={onClose} className={'close-btn'}>Close</Button>
+			{/* <Button onClick={onClose} className={'close-btn'}>Close</Button> */}
 			<span className='username'>
 				{user?.username}
 			</span>
